@@ -23,6 +23,4 @@ const userColor = prompt('Qual è il tuo colore preferito?');
 
 //Unisco i dati e stampo la password generata
 
-password.innerText = userName + userLastName + userColor + "21";
-
-
+password.innerText = `La password creata è: ${userName}${userLastName}${userColor}21`;
