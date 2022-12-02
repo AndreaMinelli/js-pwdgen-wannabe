@@ -8,4 +8,8 @@ Infine scrivi sulla pagina nomecognomecolorepreferito21
 //Inserisco l'elemento target in una variabile
 
 const password = document.getElementById('generated-password');
-console.log(password)
+
+//Chiedo all'utente il nome
+
+const userName = prompt('Come ti chiami?');
+console.log(userName)
