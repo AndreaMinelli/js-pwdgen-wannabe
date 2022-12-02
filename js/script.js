@@ -11,5 +11,9 @@ const password = document.getElementById('generated-password');
 
 //Chiedo all'utente il nome
 
-const userName = prompt('Come ti chiami?');
-console.log(userName)
+const userName = prompt('Qual è il tuo nome?');
+
+//Chiedo all'utente il cognome
+
+const userLastName = prompt('Qual è il tuo cognome?');
+console.log(userLastName)
